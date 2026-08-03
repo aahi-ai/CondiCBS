@@ -1,0 +1,73 @@
+{
+  "S_detour": {
+    "form": "SIMPLE",
+    "text": "Give way to whichever robot has already been pushed furthest off its original route.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "fields_referenced": [
+      "detour_from_optimal"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 72894,
+    "scored": 72894,
+    "accuracy": 100.0,
+    "ties_skipped": 31490
+  },
+  "C_detour_unless_longer": {
+    "form": "COMPOUND",
+    "text": "Give way to whichever robot has been detoured more, unless the other robot's original journey was more than twice as long \u2014 in that case it takes priority instead.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    optimal_a = state_a['optimal_route_cost']\n    optimal_b = state_b['optimal_route_cost']\n    \n    if optimal_a > 2 * optimal_b:\n        return id_a\n    elif optimal_b > 2 * optimal_a:\n        return id_b\n    else:\n        if detour_a > detour_b:\n            return id_a\n        elif detour_b > detour_a:\n            return id_b\n        else:\n            return id_a",
+    "fields_referenced": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 72894,
+    "scored": 72894,
+    "accuracy": 100.0,
+    "ties_skipped": 31490
+  },
+  "T_detour_cutoff": {
+    "form": "THRESHOLD",
+    "text": "Give way to any robot that has been detoured by more than 2. If both or neither have, give way to the one with the shorter original journey.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > 2 and detour_b <= 2:\n        return id_a\n    elif detour_b > 2 and detour_a <= 2:\n        return id_b\n    else:\n        if state_a['optimal_route_cost'] < state_b['optimal_route_cost']:\n            return id_a\n        else:\n            return id_b",
+    "fields_referenced": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 102734,
+    "scored": 102734,
+    "accuracy": 100.0,
+    "ties_skipped": 1650
+  },
+  "U_worse_time": {
+    "form": "UNDERSPECIFIED",
+    "text": "Prioritise whichever robot is having a worse time of it.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a != detour_b:\n        return id_a if detour_a > detour_b else id_b\n    \n    constraints_a = state_a['constraints_on_this_robot']\n    constraints_b = state_b['constraints_on_this_robot']\n    \n    if constraints_a != constraints_b:\n        return id_a if constraints_a > constraints_b else id_b\n    \n    alt_a = state_a['alternative_routes_at_conflict']\n    alt_b = state_b['alternative_routes_at_conflict']\n    \n    if alt_a is not None and alt_b is not None and alt_a != alt_b:\n        return id_a if alt_a < alt_b else id_b\n    \n    return id_a if id_a < id_b else id_b",
+    "fields_referenced": [
+      "alternative_routes_at_conflict",
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384
+  },
+  "X_heavier_load": {
+    "form": "UNGROUNDABLE",
+    "text": "Give way to whichever robot is carrying the heavier load.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    load_a = state_a['optimal_route_cost']\n    load_b = state_b['optimal_route_cost']\n    \n    if load_a > load_b:\n        return id_a\n    elif load_b > load_a:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "fields_referenced": [
+      "optimal_route_cost"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384
+  }
+}
