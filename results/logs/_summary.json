@@ -5,7 +5,7 @@
     "rseed": 1,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.083,
+    "runtime_seconds": 0.078,
     "num_conflicts_logged": 1
   },
   {
@@ -14,7 +14,7 @@
     "rseed": 1,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.126,
+    "runtime_seconds": 0.118,
     "num_conflicts_logged": 1
   },
   {
@@ -23,7 +23,7 @@
     "rseed": 2,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.257,
+    "runtime_seconds": 0.239,
     "num_conflicts_logged": 11
   },
   {
@@ -32,7 +32,7 @@
     "rseed": 42,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 1.207,
+    "runtime_seconds": 1.146,
     "num_conflicts_logged": 53
   },
   {
@@ -41,7 +41,7 @@
     "rseed": 1,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.054,
+    "runtime_seconds": 0.056,
     "num_conflicts_logged": 5
   },
   {
@@ -50,8 +50,8 @@
     "rseed": 42,
     "solved": false,
     "timed_out": true,
-    "runtime_seconds": 60.1,
-    "num_conflicts_logged": 3003
+    "runtime_seconds": 60.096,
+    "num_conflicts_logged": 3052
   },
   {
     "map": "maze-32-32-2",
@@ -59,7 +59,7 @@
     "rseed": 239,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 3.132,
+    "runtime_seconds": 3.47,
     "num_conflicts_logged": 10
   },
   {
@@ -68,8 +68,8 @@
     "rseed": 7,
     "solved": false,
     "timed_out": true,
-    "runtime_seconds": 63.557,
-    "num_conflicts_logged": 280
+    "runtime_seconds": 63.93,
+    "num_conflicts_logged": 279
   },
   {
     "map": "room-32-32-4",
@@ -77,7 +77,7 @@
     "rseed": 3,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.187,
+    "runtime_seconds": 0.186,
     "num_conflicts_logged": 7
   },
   {
@@ -86,7 +86,7 @@
     "rseed": 8,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 0.445,
+    "runtime_seconds": 0.452,
     "num_conflicts_logged": 4
   },
   {
@@ -95,7 +95,7 @@
     "rseed": 2,
     "solved": true,
     "timed_out": false,
-    "runtime_seconds": 21.74,
+    "runtime_seconds": 22.252,
     "num_conflicts_logged": 810
   }
 ]

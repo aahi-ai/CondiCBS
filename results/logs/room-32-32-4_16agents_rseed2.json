@@ -441,7 +441,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 427,
     "branch_node_entry": 8
@@ -499,7 +499,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 427,
@@ -1088,7 +1088,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 428,
@@ -1153,7 +1153,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 428,
@@ -2726,7 +2726,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 429,
     "branch_node_entry": 41
@@ -2807,7 +2807,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 429,
     "branch_node_entry": 43
@@ -2888,7 +2888,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 429,
     "branch_node_entry": 45
@@ -2953,7 +2953,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 429,
     "branch_node_entry": 18
@@ -3023,7 +3023,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 429,
@@ -3096,7 +3096,7 @@
       "15": 24
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 429,
@@ -3177,7 +3177,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 429,
@@ -3258,7 +3258,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 429,
@@ -6739,7 +6739,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 430,
@@ -6820,7 +6820,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 430,
@@ -6909,7 +6909,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 430,
@@ -6998,7 +6998,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 430,
@@ -7086,7 +7086,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 95
@@ -7173,7 +7173,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 97
@@ -7245,7 +7245,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 430,
@@ -7322,7 +7322,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7401,7 +7401,7 @@
       "15": 24
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7488,7 +7488,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7575,7 +7575,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7662,7 +7662,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7749,7 +7749,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -7831,7 +7831,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 101
@@ -7912,7 +7912,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 107
@@ -7993,7 +7993,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 113
@@ -8074,7 +8074,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 119
@@ -8248,7 +8248,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -8329,7 +8329,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -8410,7 +8410,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -8491,7 +8491,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -8579,7 +8579,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 135
@@ -8666,7 +8666,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 430,
     "branch_node_entry": 137
@@ -8752,7 +8752,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -8839,7 +8839,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 430,
@@ -15641,7 +15641,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -15736,7 +15736,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -15831,7 +15831,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -15933,7 +15933,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 234
@@ -16034,7 +16034,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 236
@@ -16135,7 +16135,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 238
@@ -16236,7 +16236,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 240
@@ -16337,7 +16337,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 242
@@ -16408,7 +16408,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 39
@@ -16487,7 +16487,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 89
@@ -16574,7 +16574,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 91
@@ -16661,7 +16661,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 93
@@ -16745,7 +16745,7 @@
       "15": 24
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -16838,7 +16838,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -16931,7 +16931,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -17024,7 +17024,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -17117,7 +17117,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -17206,7 +17206,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -17295,7 +17295,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -17384,7 +17384,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -17473,7 +17473,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -17565,7 +17565,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 215
@@ -17756,7 +17756,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -17857,7 +17857,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -17958,7 +17958,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -18059,7 +18059,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -18160,7 +18160,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -18248,7 +18248,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 244
@@ -18335,7 +18335,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 246
@@ -18422,7 +18422,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 248
@@ -18509,7 +18509,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 250
@@ -18596,7 +18596,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 252
@@ -18683,7 +18683,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 254
@@ -18770,7 +18770,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 256
@@ -18857,7 +18857,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 258
@@ -18944,7 +18944,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 260
@@ -19030,7 +19030,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19117,7 +19117,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19204,7 +19204,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19291,7 +19291,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19386,7 +19386,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -19481,7 +19481,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 431,
@@ -19568,7 +19568,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19655,7 +19655,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19742,7 +19742,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19829,7 +19829,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -19916,7 +19916,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20003,7 +20003,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20090,7 +20090,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20177,7 +20177,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20264,7 +20264,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20360,7 +20360,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 300
@@ -20455,7 +20455,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 302
@@ -20550,7 +20550,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 304
@@ -20645,7 +20645,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 306
@@ -20740,7 +20740,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 431,
     "branch_node_entry": 308
@@ -20832,7 +20832,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -20925,7 +20925,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -21020,7 +21020,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -21115,7 +21115,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -21210,7 +21210,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -21305,7 +21305,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -21400,7 +21400,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 431,
@@ -36448,7 +36448,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -36549,7 +36549,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -36650,7 +36650,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -36745,7 +36745,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -36854,7 +36854,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -36963,7 +36963,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -37072,7 +37072,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -37181,7 +37181,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -37290,7 +37290,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -37400,7 +37400,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 512
@@ -37509,7 +37509,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 514
@@ -37618,7 +37618,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 516
@@ -37727,7 +37727,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 518
@@ -37836,7 +37836,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 520
@@ -37945,7 +37945,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 522
@@ -38054,7 +38054,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 524
@@ -38163,7 +38163,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 526
@@ -38272,7 +38272,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 528
@@ -38381,7 +38381,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 530
@@ -38490,7 +38490,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 534
@@ -38599,7 +38599,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 538
@@ -38708,7 +38708,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 542
@@ -38817,7 +38817,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 546
@@ -38926,7 +38926,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 550
@@ -39035,7 +39035,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 564
@@ -39144,7 +39144,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 568
@@ -39253,7 +39253,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 572
@@ -39362,7 +39362,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 576
@@ -39471,7 +39471,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 580
@@ -39580,7 +39580,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 584
@@ -39689,7 +39689,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 588
@@ -39798,7 +39798,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 592
@@ -39907,7 +39907,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 596
@@ -39991,7 +39991,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -40085,7 +40085,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 204
@@ -40178,7 +40178,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 206
@@ -40256,7 +40256,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -40343,7 +40343,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -40438,7 +40438,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -40533,7 +40533,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -40624,7 +40624,7 @@
       "15": 24
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -40723,7 +40723,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -40822,7 +40822,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -40921,7 +40921,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41020,7 +41020,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41119,7 +41119,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -41325,7 +41325,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 426
@@ -41431,7 +41431,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41538,7 +41538,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41645,7 +41645,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41752,7 +41752,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41859,7 +41859,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -41954,7 +41954,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42049,7 +42049,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42144,7 +42144,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42239,7 +42239,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42334,7 +42334,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42429,7 +42429,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42524,7 +42524,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42619,7 +42619,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42714,7 +42714,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -42823,7 +42823,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -42932,7 +42932,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43041,7 +43041,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43150,7 +43150,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43259,7 +43259,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43368,7 +43368,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43477,7 +43477,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43586,7 +43586,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43695,7 +43695,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43804,7 +43804,7 @@
       "15": 28
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -43913,7 +43913,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44022,7 +44022,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44131,7 +44131,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44240,7 +44240,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44349,7 +44349,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44458,7 +44458,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44567,7 +44567,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44676,7 +44676,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44785,7 +44785,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -44894,7 +44894,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -45003,7 +45003,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -45112,7 +45112,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -45221,7 +45221,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -45330,7 +45330,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -45758,7 +45758,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 218
@@ -45845,7 +45845,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 220
@@ -45932,7 +45932,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 222
@@ -46019,7 +46019,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 224
@@ -46111,7 +46111,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46204,7 +46204,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46297,7 +46297,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46390,7 +46390,7 @@
       "15": 25
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46483,7 +46483,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46576,7 +46576,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46669,7 +46669,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46762,7 +46762,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46855,7 +46855,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -46948,7 +46948,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -47041,7 +47041,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -47134,7 +47134,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -47227,7 +47227,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -47330,7 +47330,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -47433,7 +47433,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -47536,7 +47536,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -47639,7 +47639,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -47742,7 +47742,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 432,
@@ -47844,7 +47844,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 672
@@ -47945,7 +47945,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 674
@@ -48046,7 +48046,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 676
@@ -48147,7 +48147,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 678
@@ -48248,7 +48248,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 680
@@ -48349,7 +48349,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 682
@@ -48450,7 +48450,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 684
@@ -48551,7 +48551,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 686
@@ -48652,7 +48652,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 688
@@ -48761,7 +48761,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 690
@@ -48870,7 +48870,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 692
@@ -48979,7 +48979,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 694
@@ -49088,7 +49088,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 696
@@ -49197,7 +49197,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 698
@@ -49306,7 +49306,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 710
@@ -49415,7 +49415,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 712
@@ -49524,7 +49524,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 714
@@ -49633,7 +49633,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 716
@@ -49742,7 +49742,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 718
@@ -49835,7 +49835,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 230
@@ -49928,7 +49928,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 432,
     "branch_node_entry": 232
@@ -50026,7 +50026,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50125,7 +50125,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50226,7 +50226,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50327,7 +50327,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50428,7 +50428,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50529,7 +50529,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50630,7 +50630,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50731,7 +50731,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50832,7 +50832,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -50933,7 +50933,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51034,7 +51034,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51135,7 +51135,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51236,7 +51236,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51337,7 +51337,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51438,7 +51438,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51539,7 +51539,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51648,7 +51648,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51757,7 +51757,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51866,7 +51866,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -51975,7 +51975,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52084,7 +52084,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52193,7 +52193,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52302,7 +52302,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52411,7 +52411,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52520,7 +52520,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -52629,7 +52629,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "0": 1,
+      "0": null,
       "5": 1
     },
     "branch_total_cost": 432,
@@ -82023,7 +82023,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1
+      "3": null
     },
     "branch_total_cost": 433,
     "branch_node_entry": 87
@@ -82129,7 +82129,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82236,7 +82236,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 1,
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82339,7 +82339,7 @@
       "15": 24
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82450,7 +82450,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82561,7 +82561,7 @@
       "15": 27
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82662,7 +82662,7 @@
       "15": 26
     },
     "agent_widths_at_conflict": {
-      "3": 1,
+      "3": null,
       "8": 1
     },
     "branch_total_cost": 433,
@@ -82770,7 +82770,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 2,
-      "7": 1
+      "7": null
     },
     "branch_total_cost": 433,
     "branch_node_entry": 1655
@@ -82883,7 +82883,7 @@
     },
     "agent_widths_at_conflict": {
       "8": 2,
-      "9": 1
+      "9": null
     },
     "branch_total_cost": 433,
     "branch_node_entry": 1658
@@ -83140,7 +83140,7 @@
     },
     "agent_widths_at_conflict": {
       "3": 2,
-      "7": 1
+      "7": null
     },
     "branch_total_cost": 433,
     "branch_node_entry": 1661

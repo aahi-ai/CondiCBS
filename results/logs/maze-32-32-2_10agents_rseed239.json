@@ -189,7 +189,7 @@
     },
     "agent_widths_at_conflict": {
       "2": 2,
-      "8": 1
+      "8": null
     },
     "branch_total_cost": 554,
     "branch_node_entry": 5
@@ -250,7 +250,7 @@
     },
     "agent_widths_at_conflict": {
       "1": 2,
-      "8": 1
+      "8": null
     },
     "branch_total_cost": 554,
     "branch_node_entry": 8

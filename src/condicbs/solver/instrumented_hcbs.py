@@ -61,9 +61,19 @@ def HCBS_instrumented(MAPF_instance, agents, use_pc=False, max_time=300,
             conflict_t = vertex_and_time[0][-1]
 
         agent_widths_at_conflict = {}
+        agent_width_valid = {}
         for aid in conflicting_agents:
             widths = p.solution[aid][2] if len(p.solution[aid]) > 2 else {}
-            agent_widths_at_conflict[aid] = widths.get(conflict_t, 1) or 1
+            if not widths:
+                agent_widths_at_conflict[aid] = None
+                agent_width_valid[aid] = False
+                continue
+            last_t = max(widths.keys())
+            # a parked agent's flexibility is whatever it had when it stopped
+            lookup_t = min(conflict_t, last_t)
+            w = widths.get(lookup_t)
+            agent_widths_at_conflict[aid] = w if w else None
+            agent_width_valid[aid] = w is not None and conflict_t <= last_t
 
         # --- LOGGING HOOK: branch state at the moment of conflict ---
         branch_constraints = p.extract_all_constraints()
