@@ -1,0 +1,23 @@
+{
+  "D_detour": {
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "correct": 72894,
+    "total": 72894,
+    "accuracy": 100.0,
+    "errors": 0
+  },
+  "D_longroute": {
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['optimal_route_cost'] > state_b['optimal_route_cost']:\n        return id_a\n    elif state_b['optimal_route_cost'] > state_a['optimal_route_cost']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "correct": 102483,
+    "total": 102483,
+    "accuracy": 100.0,
+    "errors": 0
+  },
+  "D_shortroute": {
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['optimal_route_cost'] < state_b['optimal_route_cost']:\n        return id_a\n    elif state_b['optimal_route_cost'] < state_a['optimal_route_cost']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "correct": 102483,
+    "total": 102483,
+    "accuracy": 100.0,
+    "errors": 0
+  }
+}
