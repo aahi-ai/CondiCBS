@@ -1,0 +1,82 @@
+[
+  {
+    "scenario_id": "B02_00",
+    "root_slacks_used": {
+      "6": 6.0,
+      "7": 21.0
+    },
+    "static_priority_agent": "6",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_01",
+    "root_slacks_used": {
+      "0": 9.5,
+      "6": 6.0
+    },
+    "static_priority_agent": "6",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_02",
+    "root_slacks_used": {
+      "7": 15.0,
+      "8": 14.5
+    },
+    "static_priority_agent": "8",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_03",
+    "root_slacks_used": {
+      "4": 9.5,
+      "8": 12.0
+    },
+    "static_priority_agent": "4",
+    "oracle_priority_agent": "4",
+    "correct": true
+  },
+  {
+    "scenario_id": "B01_00",
+    "root_widths_used": {
+      "2": 1,
+      "9": 1
+    },
+    "static_priority_agent": "2",
+    "oracle_priority_agent": "9",
+    "correct": false
+  },
+  {
+    "scenario_id": "B01_01",
+    "root_widths_used": {
+      "7": 2,
+      "9": 1
+    },
+    "static_priority_agent": "9",
+    "oracle_priority_agent": "9",
+    "correct": true
+  },
+  {
+    "scenario_id": "B01_02",
+    "root_widths_used": {
+      "2": 2,
+      "8": 1
+    },
+    "static_priority_agent": "8",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B01_03",
+    "root_widths_used": {
+      "1": 2,
+      "8": 1
+    },
+    "static_priority_agent": "8",
+    "oracle_priority_agent": "8",
+    "correct": true
+  }
+]

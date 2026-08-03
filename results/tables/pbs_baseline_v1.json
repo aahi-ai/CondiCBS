@@ -1,0 +1,23 @@
+[
+  {
+    "scenario_id": "B02_00",
+    "pbs_priority_agent": "4",
+    "oracle_priority_agent": "8",
+    "correct": false,
+    "note": "PBS optimizes for lower cost (= higher slack, since slack = deadline - cost); this is structurally opposite to the slack directive's intent, which wants LOWER slack to win."
+  },
+  {
+    "scenario_id": "B02_01",
+    "pbs_priority_agent": "14",
+    "oracle_priority_agent": "5",
+    "correct": false,
+    "note": "PBS optimizes for lower cost (= higher slack, since slack = deadline - cost); this is structurally opposite to the slack directive's intent, which wants LOWER slack to win."
+  },
+  {
+    "scenario_id": "B02_02",
+    "pbs_priority_agent": "8",
+    "oracle_priority_agent": "7",
+    "correct": false,
+    "note": "PBS optimizes for lower cost (= higher slack, since slack = deadline - cost); this is structurally opposite to the slack directive's intent, which wants LOWER slack to win."
+  }
+]

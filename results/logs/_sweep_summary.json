@@ -1,0 +1,1064 @@
+[
+  {
+    "label": "room-32-32-4_12agents_rseed73",
+    "solved": true,
+    "runtime": 0.67,
+    "n_conflicts": 66
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed74",
+    "solved": true,
+    "runtime": 0.07,
+    "n_conflicts": 4
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed75",
+    "solved": true,
+    "runtime": 0.09,
+    "n_conflicts": 2
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed76",
+    "solved": true,
+    "runtime": 0.33,
+    "n_conflicts": 18
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed77",
+    "solved": true,
+    "runtime": 0.09,
+    "n_conflicts": 8
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed78",
+    "solved": true,
+    "runtime": 0.54,
+    "n_conflicts": 16
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed79",
+    "solved": true,
+    "runtime": 0.99,
+    "n_conflicts": 9
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed80",
+    "solved": true,
+    "runtime": 0.59,
+    "n_conflicts": 14
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed81",
+    "solved": true,
+    "runtime": 0.19,
+    "n_conflicts": 3
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed82",
+    "solved": true,
+    "runtime": 0.14,
+    "n_conflicts": 3
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed83",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 758
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed84",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 244
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed85",
+    "solved": true,
+    "runtime": 0.32,
+    "n_conflicts": 35
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed86",
+    "solved": true,
+    "runtime": 7.39,
+    "n_conflicts": 288
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed87",
+    "solved": true,
+    "runtime": 0.29,
+    "n_conflicts": 9
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed88",
+    "solved": true,
+    "runtime": 0.39,
+    "n_conflicts": 11
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed89",
+    "solved": true,
+    "runtime": 1.71,
+    "n_conflicts": 62
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed90",
+    "solved": true,
+    "runtime": 0.3,
+    "n_conflicts": 21
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed91",
+    "solved": true,
+    "runtime": 0.14,
+    "n_conflicts": 5
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed92",
+    "solved": true,
+    "runtime": 26.72,
+    "n_conflicts": 448
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed93",
+    "solved": true,
+    "runtime": 0.26,
+    "n_conflicts": 5
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed94",
+    "solved": true,
+    "runtime": 2.11,
+    "n_conflicts": 47
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed95",
+    "solved": true,
+    "runtime": 0.92,
+    "n_conflicts": 35
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed96",
+    "solved": true,
+    "runtime": 0.34,
+    "n_conflicts": 5
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed97",
+    "solved": true,
+    "runtime": 2.32,
+    "n_conflicts": 16
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed98",
+    "solved": true,
+    "runtime": 1.08,
+    "n_conflicts": 62
+  },
+  {
+    "label": "room-32-32-4_12agents_rseed99",
+    "solved": true,
+    "runtime": 1.88,
+    "n_conflicts": 100
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed20",
+    "solved": true,
+    "runtime": 6.16,
+    "n_conflicts": 163
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed21",
+    "solved": false,
+    "runtime": 30.09,
+    "n_conflicts": 1171
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed22",
+    "solved": true,
+    "runtime": 1.87,
+    "n_conflicts": 62
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed23",
+    "solved": true,
+    "runtime": 1.47,
+    "n_conflicts": 45
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed24",
+    "solved": true,
+    "runtime": 1.96,
+    "n_conflicts": 71
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed25",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 1016
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed26",
+    "solved": false,
+    "runtime": 30.16,
+    "n_conflicts": 757
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed27",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 1101
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed28",
+    "solved": true,
+    "runtime": 0.73,
+    "n_conflicts": 24
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed29",
+    "solved": true,
+    "runtime": 8.71,
+    "n_conflicts": 331
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed30",
+    "solved": true,
+    "runtime": 7.61,
+    "n_conflicts": 257
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed31",
+    "solved": false,
+    "runtime": 30.1,
+    "n_conflicts": 741
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed32",
+    "solved": true,
+    "runtime": 1.89,
+    "n_conflicts": 73
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed33",
+    "solved": false,
+    "runtime": 30.07,
+    "n_conflicts": 1011
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed34",
+    "solved": true,
+    "runtime": 3.67,
+    "n_conflicts": 129
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed35",
+    "solved": true,
+    "runtime": 5.3,
+    "n_conflicts": 326
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed36",
+    "solved": false,
+    "runtime": 30.06,
+    "n_conflicts": 767
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed37",
+    "solved": false,
+    "runtime": 30.14,
+    "n_conflicts": 695
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed38",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1681
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed39",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 414
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed40",
+    "solved": false,
+    "runtime": 30.09,
+    "n_conflicts": 1754
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed41",
+    "solved": true,
+    "runtime": 5.77,
+    "n_conflicts": 81
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed42",
+    "solved": false,
+    "runtime": 30.09,
+    "n_conflicts": 1606
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed43",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1180
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed44",
+    "solved": true,
+    "runtime": 1.19,
+    "n_conflicts": 139
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed45",
+    "solved": true,
+    "runtime": 1.03,
+    "n_conflicts": 34
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed46",
+    "solved": true,
+    "runtime": 0.51,
+    "n_conflicts": 13
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed47",
+    "solved": false,
+    "runtime": 30.05,
+    "n_conflicts": 1927
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed48",
+    "solved": true,
+    "runtime": 28.75,
+    "n_conflicts": 2791
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed49",
+    "solved": false,
+    "runtime": 30.18,
+    "n_conflicts": 649
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed50",
+    "solved": true,
+    "runtime": 16.62,
+    "n_conflicts": 299
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed51",
+    "solved": true,
+    "runtime": 0.58,
+    "n_conflicts": 35
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed52",
+    "solved": true,
+    "runtime": 0.59,
+    "n_conflicts": 25
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed53",
+    "solved": false,
+    "runtime": 30.07,
+    "n_conflicts": 1453
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed54",
+    "solved": true,
+    "runtime": 0.84,
+    "n_conflicts": 78
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed55",
+    "solved": false,
+    "runtime": 30.09,
+    "n_conflicts": 987
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed56",
+    "solved": true,
+    "runtime": 0.33,
+    "n_conflicts": 20
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed57",
+    "solved": true,
+    "runtime": 0.12,
+    "n_conflicts": 2
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed58",
+    "solved": false,
+    "runtime": 30.04,
+    "n_conflicts": 2452
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed59",
+    "solved": false,
+    "runtime": 30.17,
+    "n_conflicts": 551
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed60",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 1960
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed61",
+    "solved": true,
+    "runtime": 5.29,
+    "n_conflicts": 160
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed62",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 2103
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed63",
+    "solved": true,
+    "runtime": 6.76,
+    "n_conflicts": 331
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed64",
+    "solved": true,
+    "runtime": 0.98,
+    "n_conflicts": 43
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed65",
+    "solved": true,
+    "runtime": 4.8,
+    "n_conflicts": 179
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed66",
+    "solved": true,
+    "runtime": 0.31,
+    "n_conflicts": 7
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed67",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 1183
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed68",
+    "solved": false,
+    "runtime": 30.08,
+    "n_conflicts": 1374
+  },
+  {
+    "label": "room-32-32-4_16agents_rseed69",
+    "solved": true,
+    "runtime": 5.72,
+    "n_conflicts": 406
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed0",
+    "solved": false,
+    "runtime": 30.18,
+    "n_conflicts": 1133
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed1",
+    "solved": true,
+    "runtime": 3.07,
+    "n_conflicts": 167
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed2",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 1220
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed3",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 523
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed4",
+    "solved": true,
+    "runtime": 1.85,
+    "n_conflicts": 42
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed5",
+    "solved": false,
+    "runtime": 30.19,
+    "n_conflicts": 684
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed6",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 1305
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed7",
+    "solved": true,
+    "runtime": 3.01,
+    "n_conflicts": 66
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed8",
+    "solved": false,
+    "runtime": 30.12,
+    "n_conflicts": 1030
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed9",
+    "solved": true,
+    "runtime": 0.52,
+    "n_conflicts": 59
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed10",
+    "solved": true,
+    "runtime": 4.5,
+    "n_conflicts": 208
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed11",
+    "solved": false,
+    "runtime": 30.12,
+    "n_conflicts": 1374
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed12",
+    "solved": false,
+    "runtime": 30.27,
+    "n_conflicts": 936
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed13",
+    "solved": false,
+    "runtime": 30.21,
+    "n_conflicts": 1034
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed14",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 888
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed15",
+    "solved": false,
+    "runtime": 30.16,
+    "n_conflicts": 1195
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed16",
+    "solved": false,
+    "runtime": 30.15,
+    "n_conflicts": 1958
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed17",
+    "solved": false,
+    "runtime": 30.17,
+    "n_conflicts": 724
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed18",
+    "solved": true,
+    "runtime": 3.27,
+    "n_conflicts": 226
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed19",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1206
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed20",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 912
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed21",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1873
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed22",
+    "solved": true,
+    "runtime": 5.75,
+    "n_conflicts": 144
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed23",
+    "solved": false,
+    "runtime": 30.14,
+    "n_conflicts": 1445
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed24",
+    "solved": false,
+    "runtime": 30.18,
+    "n_conflicts": 818
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed25",
+    "solved": false,
+    "runtime": 30.1,
+    "n_conflicts": 1660
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed26",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1269
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed27",
+    "solved": false,
+    "runtime": 30.2,
+    "n_conflicts": 650
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed28",
+    "solved": true,
+    "runtime": 1.76,
+    "n_conflicts": 44
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed29",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1164
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed30",
+    "solved": false,
+    "runtime": 30.18,
+    "n_conflicts": 773
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed31",
+    "solved": false,
+    "runtime": 30.11,
+    "n_conflicts": 922
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed32",
+    "solved": false,
+    "runtime": 30.18,
+    "n_conflicts": 660
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed33",
+    "solved": false,
+    "runtime": 30.16,
+    "n_conflicts": 1187
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed34",
+    "solved": true,
+    "runtime": 4.91,
+    "n_conflicts": 145
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed35",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 1567
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed36",
+    "solved": false,
+    "runtime": 30.1,
+    "n_conflicts": 992
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed37",
+    "solved": false,
+    "runtime": 30.13,
+    "n_conflicts": 968
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed38",
+    "solved": false,
+    "runtime": 30.17,
+    "n_conflicts": 1484
+  },
+  {
+    "label": "room-32-32-4_20agents_rseed39",
+    "solved": false,
+    "runtime": 30.1,
+    "n_conflicts": 1430
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed0",
+    "solved": false,
+    "runtime": 32.68,
+    "n_conflicts": 76
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed1",
+    "solved": false,
+    "runtime": 31.45,
+    "n_conflicts": 130
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed2",
+    "solved": false,
+    "runtime": 32.77,
+    "n_conflicts": 99
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed3",
+    "solved": false,
+    "runtime": 31.92,
+    "n_conflicts": 74
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed4",
+    "solved": false,
+    "runtime": 31.27,
+    "n_conflicts": 194
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed5",
+    "solved": false,
+    "runtime": 31.57,
+    "n_conflicts": 70
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed6",
+    "solved": false,
+    "runtime": 31.95,
+    "n_conflicts": 66
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed7",
+    "solved": false,
+    "runtime": 32.59,
+    "n_conflicts": 356
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed8",
+    "solved": true,
+    "runtime": 20.53,
+    "n_conflicts": 521
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed9",
+    "solved": false,
+    "runtime": 32.0,
+    "n_conflicts": 105
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed10",
+    "solved": false,
+    "runtime": 32.04,
+    "n_conflicts": 66
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed11",
+    "solved": false,
+    "runtime": 31.63,
+    "n_conflicts": 194
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed12",
+    "solved": true,
+    "runtime": 18.71,
+    "n_conflicts": 26
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed13",
+    "solved": false,
+    "runtime": 31.11,
+    "n_conflicts": 437
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed14",
+    "solved": true,
+    "runtime": 19.92,
+    "n_conflicts": 76
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed15",
+    "solved": false,
+    "runtime": 31.82,
+    "n_conflicts": 106
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed16",
+    "solved": true,
+    "runtime": 15.6,
+    "n_conflicts": 36
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed17",
+    "solved": false,
+    "runtime": 31.38,
+    "n_conflicts": 106
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed18",
+    "solved": false,
+    "runtime": 31.81,
+    "n_conflicts": 65
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed19",
+    "solved": false,
+    "runtime": 32.04,
+    "n_conflicts": 35
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed20",
+    "solved": false,
+    "runtime": 32.67,
+    "n_conflicts": 77
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed21",
+    "solved": false,
+    "runtime": 32.17,
+    "n_conflicts": 85
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed22",
+    "solved": false,
+    "runtime": 31.41,
+    "n_conflicts": 390
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed23",
+    "solved": false,
+    "runtime": 31.06,
+    "n_conflicts": 156
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed24",
+    "solved": false,
+    "runtime": 31.88,
+    "n_conflicts": 226
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed25",
+    "solved": false,
+    "runtime": 31.87,
+    "n_conflicts": 68
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed26",
+    "solved": false,
+    "runtime": 31.73,
+    "n_conflicts": 54
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed27",
+    "solved": false,
+    "runtime": 31.8,
+    "n_conflicts": 97
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed28",
+    "solved": false,
+    "runtime": 31.79,
+    "n_conflicts": 83
+  },
+  {
+    "label": "maze-32-32-2_15agents_rseed29",
+    "solved": false,
+    "runtime": 32.71,
+    "n_conflicts": 56
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed0",
+    "solved": false,
+    "runtime": 33.28,
+    "n_conflicts": 86
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed1",
+    "solved": false,
+    "runtime": 32.07,
+    "n_conflicts": 189
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed2",
+    "solved": false,
+    "runtime": 33.23,
+    "n_conflicts": 91
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed3",
+    "solved": false,
+    "runtime": 32.01,
+    "n_conflicts": 96
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed4",
+    "solved": false,
+    "runtime": 31.94,
+    "n_conflicts": 113
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed5",
+    "solved": false,
+    "runtime": 31.49,
+    "n_conflicts": 78
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed6",
+    "solved": false,
+    "runtime": 32.51,
+    "n_conflicts": 99
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed7",
+    "solved": false,
+    "runtime": 33.54,
+    "n_conflicts": 168
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed8",
+    "solved": false,
+    "runtime": 31.22,
+    "n_conflicts": 1024
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed9",
+    "solved": false,
+    "runtime": 33.13,
+    "n_conflicts": 55
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed10",
+    "solved": false,
+    "runtime": 32.18,
+    "n_conflicts": 72
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed11",
+    "solved": false,
+    "runtime": 31.71,
+    "n_conflicts": 186
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed12",
+    "solved": false,
+    "runtime": 32.47,
+    "n_conflicts": 160
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed13",
+    "solved": false,
+    "runtime": 31.67,
+    "n_conflicts": 280
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed14",
+    "solved": false,
+    "runtime": 31.17,
+    "n_conflicts": 177
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed15",
+    "solved": false,
+    "runtime": 32.06,
+    "n_conflicts": 319
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed16",
+    "solved": false,
+    "runtime": 32.65,
+    "n_conflicts": 259
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed17",
+    "solved": false,
+    "runtime": 31.91,
+    "n_conflicts": 183
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed18",
+    "solved": false,
+    "runtime": 32.23,
+    "n_conflicts": 127
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed19",
+    "solved": false,
+    "runtime": 32.56,
+    "n_conflicts": 116
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed20",
+    "solved": false,
+    "runtime": 32.93,
+    "n_conflicts": 89
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed21",
+    "solved": false,
+    "runtime": 32.87,
+    "n_conflicts": 70
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed22",
+    "solved": false,
+    "runtime": 31.56,
+    "n_conflicts": 447
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed23",
+    "solved": false,
+    "runtime": 31.64,
+    "n_conflicts": 209
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed24",
+    "solved": false,
+    "runtime": 32.33,
+    "n_conflicts": 255
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed25",
+    "solved": false,
+    "runtime": 32.22,
+    "n_conflicts": 172
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed26",
+    "solved": false,
+    "runtime": 32.08,
+    "n_conflicts": 88
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed27",
+    "solved": false,
+    "runtime": 32.15,
+    "n_conflicts": 135
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed28",
+    "solved": false,
+    "runtime": 32.39,
+    "n_conflicts": 69
+  },
+  {
+    "label": "maze-32-32-2_20agents_rseed29",
+    "solved": false,
+    "runtime": 33.12,
+    "n_conflicts": 86
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "conflict_type": "v",
+    "conflicting_agents": [
+      1,
+      11
+    ],
+    "vertex_and_time": [
+      27,
+      18,
+      15
+    ],
+    "branch_num_constraints": 0,
+    "branch_constraints": [],
+    "agent_costs_under_branch": {
+      "0": 30,
+      "1": 30,
+      "2": 22,
+      "3": 9,
+      "4": 10,
+      "5": 16,
+      "6": 11,
+      "7": 16,
+      "8": 42,
+      "9": 33,
+      "10": 12,
+      "11": 2
+    },
+    "agent_widths_at_conflict": {
+      "1": 1,
+      "11": 1
+    },
+    "branch_total_cost": 233,
+    "branch_node_entry": 0
+  },
+  {
+    "conflict_type": "v",
+    "conflicting_agents": [
+      1,
+      11
+    ],
+    "vertex_and_time": [
+      27,
+      18,
+      16
+    ],
+    "branch_num_constraints": 1,
+    "branch_constraints": [
+      [
+        1,
+        27,
+        18,
+        15
+      ]
+    ],
+    "agent_costs_under_branch": {
+      "0": 30,
+      "1": 31,
+      "2": 22,
+      "3": 9,
+      "4": 10,
+      "5": 16,
+      "6": 11,
+      "7": 16,
+      "8": 42,
+      "9": 33,
+      "10": 12,
+      "11": 2
+    },
+    "agent_widths_at_conflict": {
+      "1": 1,
+      "11": 1
+    },
+    "branch_total_cost": 234,
+    "branch_node_entry": 2
+  },
+  {
+    "conflict_type": "v",
+    "conflicting_agents": [
+      1,
+      11
+    ],
+    "vertex_and_time": [
+      27,
+      18,
+      17
+    ],
+    "branch_num_constraints": 2,
+    "branch_constraints": [
+      [
+        1,
+        27,
+        18,
+        15
+      ],
+      [
+        1,
+        27,
+        18,
+        16
+      ]
+    ],
+    "agent_costs_under_branch": {
+      "0": 30,
+      "1": 32,
+      "2": 22,
+      "3": 9,
+      "4": 10,
+      "5": 16,
+      "6": 11,
+      "7": 16,
+      "8": 42,
+      "9": 33,
+      "10": 12,
+      "11": 2
+    },
+    "agent_widths_at_conflict": {
+      "1": 2,
+      "11": 1
+    },
+    "branch_total_cost": 235,
+    "branch_node_entry": 4
+  },
+  {
+    "conflict_type": "v",
+    "conflicting_agents": [
+      2,
+      7
+    ],
+    "vertex_and_time": [
+      15,
+      22,
+      11
+    ],
+    "branch_num_constraints": 3,
+    "branch_constraints": [
+      [
+        1,
+        27,
+        18,
+        15
+      ],
+      [
+        1,
+        27,
+        18,
+        16
+      ],
+      [
+        1,
+        27,
+        18,
+        17
+      ]
+    ],
+    "agent_costs_under_branch": {
+      "0": 30,
+      "1": 32,
+      "2": 22,
+      "3": 9,
+      "4": 10,
+      "5": 16,
+      "6": 11,
+      "7": 16,
+      "8": 42,
+      "9": 33,
+      "10": 12,
+      "11": 2
+    },
+    "agent_widths_at_conflict": {
+      "2": 3,
+      "7": 1
+    },
+    "branch_total_cost": 235,
+    "branch_node_entry": 6
+  }
+]

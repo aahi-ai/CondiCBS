@@ -1,0 +1,690 @@
+[
+  {
+    "scenario_id": "B02_00",
+    "llm_priority_agent": "5",
+    "llm_give_way_agent": "3",
+    "llm_reasoning": "Agent 5 has less remaining schedule slack (21.5 vs 22.0), so it receives priority to keep its current path while Agent 3 must give way and replan.",
+    "oracle_priority_agent": "5",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_01",
+    "llm_priority_agent": "12",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 12 has less remaining schedule slack (15.0 vs 15.5), so it receives priority and Agent 0 must give way.",
+    "oracle_priority_agent": "12",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_02",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "12",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (11.0 vs 12.0), so it should maintain priority while Agent 12 gives way.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_03",
+    "llm_priority_agent": "Agent 16",
+    "llm_give_way_agent": "Agent 15",
+    "llm_reasoning": "Agent 16 has less remaining schedule slack (18.0 vs 18.5), so it should maintain priority while Agent 15 gives way.",
+    "oracle_priority_agent": "16",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_04",
+    "llm_priority_agent": "7",
+    "llm_give_way_agent": "17",
+    "llm_reasoning": "Agent 7 has less remaining schedule slack (16.0 < 16.5), so it receives priority to maintain its current path while Agent 17 must give way and replan.",
+    "oracle_priority_agent": "7",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_05",
+    "llm_priority_agent": "13",
+    "llm_give_way_agent": "9",
+    "llm_reasoning": "Agent 13 has less remaining schedule slack (20.5 vs 21.5), so it receives priority to keep its current path while Agent 9 must give way and replan.",
+    "oracle_priority_agent": "13",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_06",
+    "llm_priority_agent": "Agent 15",
+    "llm_give_way_agent": "Agent 14",
+    "llm_reasoning": "Agent 15 has less remaining schedule slack (12.0 vs 12.5), so it retains priority and Agent 14 must give way.",
+    "oracle_priority_agent": "15",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_07",
+    "llm_priority_agent": "Agent 1",
+    "llm_give_way_agent": "Agent 7",
+    "llm_reasoning": "Agent 1 has less remaining schedule slack (3.5 vs 4.5), so it receives priority to maintain its current path while Agent 7 must give way and replan.",
+    "oracle_priority_agent": "1",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_08",
+    "llm_priority_agent": "14",
+    "llm_give_way_agent": "3",
+    "llm_reasoning": "Agent 14 has less remaining schedule slack (15.5 < 17.0), so it receives priority to maintain its current path while Agent 3 must give way and replan.",
+    "oracle_priority_agent": "14",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_09",
+    "llm_priority_agent": "3",
+    "llm_give_way_agent": "9",
+    "llm_reasoning": "Agent 3 has less remaining schedule slack (12.0 < 12.5) and therefore should retain priority while Agent 9 gives way.",
+    "oracle_priority_agent": "3",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_10",
+    "llm_priority_agent": "16",
+    "llm_give_way_agent": "4",
+    "llm_reasoning": "Agent 16 has less remaining schedule slack (17.5 vs 18.5), so it receives priority to maintain its current path while Agent 4 must replan.",
+    "oracle_priority_agent": "16",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_11",
+    "llm_priority_agent": "Agent 11",
+    "llm_give_way_agent": "Agent 2",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (12.0 vs 12.5), so it should maintain priority while Agent 2 gives way.",
+    "oracle_priority_agent": "11",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_12",
+    "llm_priority_agent": "0",
+    "llm_give_way_agent": "3",
+    "llm_reasoning": "Agent 0 has less remaining schedule slack (6.5 vs 8.0), so it should maintain priority while Agent 3 gives way.",
+    "oracle_priority_agent": "0",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_13",
+    "llm_priority_agent": "11",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (13.5 < 14.0), so it receives priority to keep its current path while Agent 0 must give way and replan.",
+    "oracle_priority_agent": "11",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_14",
+    "llm_priority_agent": "Agent 1",
+    "llm_give_way_agent": "Agent 10",
+    "llm_reasoning": "Agent 1 has less remaining schedule slack (7.5 vs 8.5), so it should keep priority while Agent 10 gives way.",
+    "oracle_priority_agent": "1",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_15",
+    "llm_priority_agent": "9",
+    "llm_give_way_agent": "5",
+    "llm_reasoning": "Agent 9 has less remaining schedule slack (7.0 vs 7.5), so it retains priority while Agent 5 must give way.",
+    "oracle_priority_agent": "9",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_16",
+    "llm_priority_agent": "11",
+    "llm_give_way_agent": "3",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (13.0 vs 14.0) and therefore should maintain priority while Agent 3 gives way.",
+    "oracle_priority_agent": "11",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_17",
+    "llm_priority_agent": "16",
+    "llm_give_way_agent": "12",
+    "llm_reasoning": "Agent 16 has less remaining schedule slack (15.5 vs 16.0), so it retains priority and Agent 12 must give way.",
+    "oracle_priority_agent": "16",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_18",
+    "llm_priority_agent": "3",
+    "llm_give_way_agent": "10",
+    "llm_reasoning": "Agent 3 has less remaining schedule slack (15.0 < 15.5), so it receives priority and Agent 10 must give way.",
+    "oracle_priority_agent": "3",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_19",
+    "llm_priority_agent": "Agent 12",
+    "llm_give_way_agent": "Agent 5",
+    "llm_reasoning": "Agent 12 has less remaining schedule slack (6.0 vs 8.5), so it retains priority and Agent 5 must give way.",
+    "oracle_priority_agent": "12",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_20",
+    "llm_priority_agent": "Agent 14",
+    "llm_give_way_agent": "Agent 2",
+    "llm_reasoning": "Agent 14 has less remaining schedule slack (12.5 vs 13.0), so it retains priority and Agent 2 must give way.",
+    "oracle_priority_agent": "14",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_21",
+    "llm_priority_agent": "7",
+    "llm_give_way_agent": "10",
+    "llm_reasoning": "Agent 7 has less remaining schedule slack (15.0 < 15.5), so it receives priority and Agent 10 must give way.",
+    "oracle_priority_agent": "7",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_22",
+    "llm_priority_agent": "16",
+    "llm_give_way_agent": "11",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (15.0 vs 15.5), so it should keep priority and Agent 16 should give way.",
+    "oracle_priority_agent": "11",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_23",
+    "llm_priority_agent": "15",
+    "llm_give_way_agent": "18",
+    "llm_reasoning": "Agent 15 has less remaining schedule slack (9.0 vs 10.0), so it receives priority to keep its current path while Agent 18 must give way and replan.",
+    "oracle_priority_agent": "15",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_24",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "4",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (6.0 vs 7.0), so it should keep priority and Agent 4 should give way.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_25",
+    "llm_priority_agent": "Agent 6",
+    "llm_give_way_agent": "Agent 1",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (18.0 vs 19.0), so it retains priority and Agent 1 must give way.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_26",
+    "llm_priority_agent": "3",
+    "llm_give_way_agent": "8",
+    "llm_reasoning": "Agent 3 has less remaining schedule slack (9.0 vs 9.5), so it should maintain priority while Agent 8 gives way.",
+    "oracle_priority_agent": "3",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_27",
+    "llm_priority_agent": "4",
+    "llm_give_way_agent": "7",
+    "llm_reasoning": "Agent 4 has less remaining schedule slack (7.5 vs 9.0), so it should keep priority while Agent 7 gives way.",
+    "oracle_priority_agent": "4",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_28",
+    "llm_priority_agent": "Agent 14",
+    "llm_give_way_agent": "Agent 4",
+    "llm_reasoning": "Agent 14 has less remaining schedule slack (8.5 vs 9.5), so it should maintain priority while Agent 4 gives way.",
+    "oracle_priority_agent": "14",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_29",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "14",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (14.0 < 15.5), so it should maintain priority and Agent 14 should give way.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_30",
+    "llm_priority_agent": "18",
+    "llm_give_way_agent": "7",
+    "llm_reasoning": "Agent 18 has less remaining schedule slack (29.0 vs 29.5), so it receives priority to keep its current path while Agent 7 must give way and replan.",
+    "oracle_priority_agent": "18",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_31",
+    "llm_priority_agent": "19",
+    "llm_give_way_agent": "3",
+    "llm_reasoning": "Agent 19 has less remaining schedule slack (13.5 vs 14.5), so it should keep priority and Agent 3 should give way.",
+    "oracle_priority_agent": "19",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_32",
+    "llm_priority_agent": "11",
+    "llm_give_way_agent": "6",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (11.5 vs 12.5), so it should maintain priority while Agent 6 gives way.",
+    "oracle_priority_agent": "11",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_33",
+    "llm_priority_agent": "13",
+    "llm_give_way_agent": "4",
+    "llm_reasoning": "Agent 13 has less remaining schedule slack (13.0 vs 16.5), so it receives priority to keep its current path while Agent 4 must give way and replan.",
+    "oracle_priority_agent": "13",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_34",
+    "llm_priority_agent": "Agent 2",
+    "llm_give_way_agent": "Agent 15",
+    "llm_reasoning": "Agent 2 has less remaining schedule slack (19.0 vs 21.0), so it should maintain priority while Agent 15 gives way.",
+    "oracle_priority_agent": "2",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_35",
+    "llm_priority_agent": "Agent 2",
+    "llm_give_way_agent": "Agent 4",
+    "llm_reasoning": "Agent 2 has less remaining schedule slack (16.0 < 16.5) and therefore should maintain priority while Agent 4 gives way.",
+    "oracle_priority_agent": "2",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_36",
+    "llm_priority_agent": "16",
+    "llm_give_way_agent": "5",
+    "llm_reasoning": "Agent 16 has less remaining schedule slack (29.0 vs 29.5), so it receives priority to keep its current path while Agent 5 must give way and replan.",
+    "oracle_priority_agent": "16",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_37",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "18",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (4.5 vs 5.0), so it should maintain priority while Agent 18 gives way.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_38",
+    "llm_priority_agent": "Agent 15",
+    "llm_give_way_agent": "Agent 13",
+    "llm_reasoning": "Agent 15 has less remaining schedule slack (8.0 vs 8.5), so it retains priority and Agent 13 must give way.",
+    "oracle_priority_agent": "15",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_39",
+    "llm_priority_agent": "7",
+    "llm_give_way_agent": "16",
+    "llm_reasoning": "Agent 7 has less remaining schedule slack (7.5 vs 8.0) and therefore should maintain priority while Agent 16 gives way.",
+    "oracle_priority_agent": "7",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_40",
+    "llm_priority_agent": "Agent 8",
+    "llm_give_way_agent": "Agent 2",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (14.5 vs 15.5), so it retains priority and Agent 2 must give way.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_41",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "2",
+    "llm_reasoning": "Agent 2 has less remaining schedule slack (5.5 vs 11.0), so it should keep priority while Agent 6 gives way.",
+    "oracle_priority_agent": "2",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_42",
+    "llm_priority_agent": "5",
+    "llm_give_way_agent": "14",
+    "llm_reasoning": "Agent 5 has less remaining schedule slack (15.5 < 16.0), so it receives priority and Agent 14 must give way.",
+    "oracle_priority_agent": "5",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_43",
+    "llm_priority_agent": "10",
+    "llm_give_way_agent": "6",
+    "llm_reasoning": "Agent 10 has less remaining schedule slack (13.0 vs 14.0), so it retains priority and Agent 6 must give way.",
+    "oracle_priority_agent": "10",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_44",
+    "llm_priority_agent": "Agent 17",
+    "llm_give_way_agent": "Agent 18",
+    "llm_reasoning": "Agent 17 has less remaining schedule slack (17.5 < 18.5), so it retains priority and Agent 18 must give way.",
+    "oracle_priority_agent": "17",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_45",
+    "llm_priority_agent": "17",
+    "llm_give_way_agent": "6",
+    "llm_reasoning": "Agent 17 has less remaining schedule slack (13.0 vs 13.5), so it receives priority to keep its current path while Agent 6 must give way and replan.",
+    "oracle_priority_agent": "17",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_46",
+    "llm_priority_agent": "9",
+    "llm_give_way_agent": "14",
+    "llm_reasoning": "Agent 9 has less remaining schedule slack (19.5 vs 20.0), so it receives priority while Agent 14 must give way.",
+    "oracle_priority_agent": "9",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_47",
+    "llm_priority_agent": "12",
+    "llm_give_way_agent": "7",
+    "llm_reasoning": "Agent 12 has less remaining schedule slack (11.5 < 12.0), so it receives priority and Agent 7 must give way.",
+    "oracle_priority_agent": "12",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_48",
+    "llm_priority_agent": "Agent 8",
+    "llm_give_way_agent": "Agent 1",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (19.0 vs 20.0), so it receives priority to keep its current path while Agent 1 must give way and replan.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_49",
+    "llm_priority_agent": "10",
+    "llm_give_way_agent": "12",
+    "llm_reasoning": "Agent 10 has less remaining schedule slack (42.5 < 44.0), so it receives priority and Agent 12 must give way.",
+    "oracle_priority_agent": "10",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_50",
+    "llm_priority_agent": "1",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 0 has less remaining schedule slack (8.5 vs 14.0), so it should keep priority to meet its tighter schedule while Agent 1 gives way.",
+    "oracle_priority_agent": "0",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_51",
+    "llm_priority_agent": "Agent 11",
+    "llm_give_way_agent": "Agent 1",
+    "llm_reasoning": "Agent 11 has less remaining schedule slack (19.0 vs 20.0), so it should maintain priority and Agent 1 should give way.",
+    "oracle_priority_agent": "11",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_52",
+    "llm_priority_agent": "19",
+    "llm_give_way_agent": "11",
+    "llm_reasoning": "Agent 19 has less remaining schedule slack (14.5 vs 15.0), so it should maintain priority while Agent 11 must give way.",
+    "oracle_priority_agent": "19",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_53",
+    "llm_priority_agent": "Agent 1",
+    "llm_give_way_agent": "Agent 13",
+    "llm_reasoning": "Agent 1 has less remaining schedule slack (15.5 vs 16.5), so it receives priority and Agent 13 must give way.",
+    "oracle_priority_agent": "1",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_54",
+    "llm_priority_agent": "18",
+    "llm_give_way_agent": "10",
+    "llm_reasoning": "Agent 18 has less remaining schedule slack (12.0 < 12.5), so it should maintain priority and Agent 10 should give way.",
+    "oracle_priority_agent": "18",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_55",
+    "llm_priority_agent": "Agent 17",
+    "llm_give_way_agent": "Agent 13",
+    "llm_reasoning": "Agent 17 has less remaining schedule slack (11.5 vs 16.5), so it retains priority and Agent 13 must give way.",
+    "oracle_priority_agent": "17",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_56",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (18.5 vs 19.5), so it receives priority while Agent 0 must give way.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_57",
+    "llm_priority_agent": "5",
+    "llm_give_way_agent": "2",
+    "llm_reasoning": "Agent 5 has less remaining schedule slack (9.5 vs 10.0), so it receives priority to keep its current path while Agent 2 must give way and replan.",
+    "oracle_priority_agent": "5",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_58",
+    "llm_priority_agent": "7",
+    "llm_give_way_agent": "15",
+    "llm_reasoning": "Agent 7 has less remaining schedule slack (5.0 vs 5.5), so it should maintain priority while Agent 15 gives way.",
+    "oracle_priority_agent": "7",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_59",
+    "llm_priority_agent": "5",
+    "llm_give_way_agent": "11",
+    "llm_reasoning": "Agent 5 has less remaining schedule slack (10.0 < 10.5), so it should maintain priority while Agent 11 gives way.",
+    "oracle_priority_agent": "5",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_60",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "15",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (10.5 vs 11.0), so it receives priority to keep its current path while Agent 15 must replan.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_61",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "7",
+    "llm_reasoning": "Agent 7 has less remaining schedule slack (14.0 vs 14.5), so it has less flexibility and should maintain priority while Agent 8 gives way.",
+    "oracle_priority_agent": "7",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_62",
+    "llm_priority_agent": "12",
+    "llm_give_way_agent": "4",
+    "llm_reasoning": "Agent 12 has less remaining schedule slack (8.5 vs 9.0), so it retains priority while Agent 4 must give way.",
+    "oracle_priority_agent": "12",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_63",
+    "llm_priority_agent": "10",
+    "llm_give_way_agent": "14",
+    "llm_reasoning": "Agent 10 has less remaining schedule slack (15.5 < 16.0) and therefore has priority to keep its current path while Agent 14 must give way and replan.",
+    "oracle_priority_agent": "10",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_64",
+    "llm_priority_agent": "15",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 0 has less remaining schedule slack (14.0 < 14.5), so it should give way to Agent 15 which has more flexibility to absorb delays.",
+    "oracle_priority_agent": "0",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_65",
+    "llm_priority_agent": "Agent 1",
+    "llm_give_way_agent": "Agent 5",
+    "llm_reasoning": "Agent 1 has less remaining schedule slack (19.5 vs 20.0), so it should maintain priority while Agent 5 gives way.",
+    "oracle_priority_agent": "1",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_66",
+    "llm_priority_agent": "2",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 2 has less remaining schedule slack (10.0 vs 10.5), so it should maintain priority while Agent 0 gives way.",
+    "oracle_priority_agent": "2",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_67",
+    "llm_priority_agent": "Agent 1",
+    "llm_give_way_agent": "Agent 3",
+    "llm_reasoning": "Agent 1 has less remaining schedule slack (16.5 vs 17.0), so it receives priority to maintain its path while Agent 3 must replan.",
+    "oracle_priority_agent": "1",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_68",
+    "llm_priority_agent": "3",
+    "llm_give_way_agent": "15",
+    "llm_reasoning": "Agent 3 has less remaining schedule slack (6.0 vs 7.0), so it should keep priority while Agent 15 gives way.",
+    "oracle_priority_agent": "3",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_69",
+    "llm_priority_agent": "2",
+    "llm_give_way_agent": "13",
+    "llm_reasoning": "Agent 2 has less remaining schedule slack (11.0 vs 11.5), so it receives priority to maintain its path while Agent 13 must replan.",
+    "oracle_priority_agent": "2",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_70",
+    "llm_priority_agent": "Agent 10",
+    "llm_give_way_agent": "Agent 4",
+    "llm_reasoning": "Agent 10 has less remaining schedule slack (3.5 vs 4.5), so it maintains priority and Agent 4 must give way.",
+    "oracle_priority_agent": "10",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_71",
+    "llm_priority_agent": "18",
+    "llm_give_way_agent": "12",
+    "llm_reasoning": "Agent 18 has less remaining schedule slack (3.0 vs 4.0), so it should maintain priority to complete its tighter schedule while Agent 12 with more slack can accommodate replanning.",
+    "oracle_priority_agent": "18",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_72",
+    "llm_priority_agent": "19",
+    "llm_give_way_agent": "8",
+    "llm_reasoning": "Agent 19 has less remaining schedule slack (13.0 vs 14.5), so it receives priority to keep its current path while Agent 8 must give way and replan.",
+    "oracle_priority_agent": "19",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_73",
+    "llm_priority_agent": "15",
+    "llm_give_way_agent": "5",
+    "llm_reasoning": "Agent 5 has less remaining schedule slack (6.0 vs 6.5), so it should keep priority to preserve its tighter schedule.",
+    "oracle_priority_agent": "5",
+    "correct": false
+  },
+  {
+    "scenario_id": "B02_74",
+    "llm_priority_agent": "19",
+    "llm_give_way_agent": "4",
+    "llm_reasoning": "Agent 19 has less remaining schedule slack (7.5 vs 8.5), so it receives priority to keep its current path while Agent 4 must give way and replan.",
+    "oracle_priority_agent": "19",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_75",
+    "llm_priority_agent": "19",
+    "llm_give_way_agent": "13",
+    "llm_reasoning": "Agent 19 has less remaining schedule slack (5.5 vs 6.0), so it should maintain priority and Agent 13 should give way.",
+    "oracle_priority_agent": "19",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_76",
+    "llm_priority_agent": "Agent 9",
+    "llm_give_way_agent": "Agent 1",
+    "llm_reasoning": "Agent 9 has less remaining schedule slack (8.5 vs 9.0), so it retains priority and Agent 1 must give way.",
+    "oracle_priority_agent": "9",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_77",
+    "llm_priority_agent": "9",
+    "llm_give_way_agent": "16",
+    "llm_reasoning": "Agent 9 has less remaining schedule slack (16.0 < 16.5), so it should maintain priority while Agent 16 gives way.",
+    "oracle_priority_agent": "9",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_78",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "16",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (16.0 vs 16.5), so it receives priority to keep its current path while Agent 16 must give way and replan.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_79",
+    "llm_priority_agent": "8",
+    "llm_give_way_agent": "13",
+    "llm_reasoning": "Agent 8 has less remaining schedule slack (16.0 < 16.5) and therefore should keep priority while Agent 13 gives way.",
+    "oracle_priority_agent": "8",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_80",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "8",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (9.5 vs 12.0), so it receives priority and Agent 8 must give way.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_81",
+    "llm_priority_agent": "Agent 17",
+    "llm_give_way_agent": "Agent 15",
+    "llm_reasoning": "Agent 17 has less remaining schedule slack (10.0 vs 11.0), so it maintains priority and Agent 15 must give way.",
+    "oracle_priority_agent": "17",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_82",
+    "llm_priority_agent": "17",
+    "llm_give_way_agent": "11",
+    "llm_reasoning": "Agent 17 has less remaining schedule slack (9.0 vs 9.5), so it retains priority and Agent 11 must give way.",
+    "oracle_priority_agent": "17",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_83",
+    "llm_priority_agent": "0",
+    "llm_give_way_agent": "5",
+    "llm_reasoning": "Agent 0 has less remaining schedule slack (11.0 < 12.0), so it should maintain priority and Agent 5 should give way.",
+    "oracle_priority_agent": "0",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_84",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "9",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (9.0 vs 9.5), so it should keep priority and Agent 9 should give way.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  },
+  {
+    "scenario_id": "B02_85",
+    "llm_priority_agent": "6",
+    "llm_give_way_agent": "0",
+    "llm_reasoning": "Agent 6 has less remaining schedule slack (5.0 vs 9.0), so it should maintain priority while Agent 0 with more slack (9.0) should give way to accommodate the tighter schedule.",
+    "oracle_priority_agent": "6",
+    "correct": true
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "scenario_id": "A01_00",
+    "test_agents": [
+      "0",
+      "5"
+    ],
+    "llm_priority_agent": "0",
+    "llm_reasoning": "Agent 0 is the medical robot and has priority over all other robots according to the fixed mission rule.",
+    "expected_priority_agent": "0",
+    "correct": true
+  },
+  {
+    "scenario_id": "A01_00",
+    "test_agents": [
+      "0",
+      "12"
+    ],
+    "llm_priority_agent": "agent 0",
+    "llm_reasoning": "The medical robot (agent 0) has priority over all other robots according to the fixed mission rule.",
+    "expected_priority_agent": "0",
+    "correct": true
+  },
+  {
+    "scenario_id": "A01_00",
+    "test_agents": [
+      "0",
+      "3"
+    ],
+    "llm_priority_agent": "0",
+    "llm_reasoning": "Agent 0 is the medical robot and has priority over all other robots according to the fixed mission rule.",
+    "expected_priority_agent": "0",
+    "correct": true
+  },
+  {
+    "scenario_id": "A02_00",
+    "llm_forbidden_cell": [
+      16,
+      16
+    ],
+    "expected_forbidden_cell": [
+      16,
+      16
+    ],
+    "cell_correct": true,
+    "llm_time_window": [
+      10,
+      20
+    ],
+    "expected_time_window": [
+      10,
+      20
+    ],
+    "window_correct": true,
+    "correct": true
+  }
+]
