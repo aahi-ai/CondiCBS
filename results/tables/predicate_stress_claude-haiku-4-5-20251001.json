@@ -1,0 +1,76 @@
+{
+  "S_detour": {
+    "form": "SIMPLE",
+    "text": "Give way to whichever robot has already been pushed furthest off its original route.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    else:\n        if state_a['constraints_on_this_robot'] > state_b['constraints_on_this_robot']:\n            return id_a\n        elif state_b['constraints_on_this_robot'] > state_a['constraints_on_this_robot']:\n            return id_b\n        else:\n            return id_a",
+    "fields_referenced": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 72894,
+    "scored": 72894,
+    "accuracy": 100.0,
+    "ties_skipped": 31490
+  },
+  "C_detour_unless_longer": {
+    "form": "COMPOUND",
+    "text": "Give way to whichever robot has been detoured more, unless the other robot's original journey was more than twice as long \u2014 in that case it takes priority instead.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    optimal_a = state_a['optimal_route_cost']\n    optimal_b = state_b['optimal_route_cost']\n    \n    # Check if one robot's original journey was more than twice as long\n    if optimal_a > 2 * optimal_b:\n        return id_a\n    if optimal_b > 2 * optimal_a:\n        return id_b\n    \n    # Otherwise, give way to whichever robot has been detoured more\n    if detour_a > detour_b:\n        return id_a\n    else:\n        return id_b",
+    "fields_referenced": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 72894,
+    "scored": 72894,
+    "accuracy": 100.0,
+    "ties_skipped": 31490
+  },
+  "T_detour_cutoff": {
+    "form": "THRESHOLD",
+    "text": "Give way to any robot that has been detoured by more than 2. If both or neither have, give way to the one with the shorter original journey.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    # Check if one robot has been detoured by more than 2\n    a_heavily_detoured = detour_a > 2\n    b_heavily_detoured = detour_b > 2\n    \n    if a_heavily_detoured and not b_heavily_detoured:\n        return id_a\n    elif b_heavily_detoured and not a_heavily_detoured:\n        return id_b\n    else:\n        # Both heavily detoured or neither heavily detoured\n        # Give way to the one with shorter original journey\n        if state_a['optimal_route_cost'] < state_b['optimal_route_cost']:\n            return id_a\n        elif state_b['optimal_route_cost'] < state_a['optimal_route_cost']:\n            return id_b\n        else:\n            # If optimal costs are equal, use id as tiebreaker\n            return id_a if id_a < id_b else id_b",
+    "fields_referenced": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384,
+    "correct": 102734,
+    "scored": 102734,
+    "accuracy": 100.0,
+    "ties_skipped": 1650
+  },
+  "U_worse_time": {
+    "form": "UNDERSPECIFIED",
+    "text": "Prioritise whichever robot is having a worse time of it.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    # Calculate a \"difficulty score\" for each robot\n    # Higher score = worse situation = should get priority\n    \n    def difficulty_score(state):\n        score = 0\n        \n        # Primary factor: detour from optimal (larger detour = worse situation)\n        score += state['detour_from_optimal'] * 10\n        \n        # Secondary factor: number of constraints (more constraints = more constrained = worse)\n        score += state['constraints_on_this_robot'] * 5\n        \n        # Tertiary factor: fewer alternative routes = less flexibility = worse\n        if state['alternative_routes_at_conflict'] is not None:\n            score += (1.0 / (state['alternative_routes_at_conflict'] + 1)) * 3\n        \n        return score\n    \n    score_a = difficulty_score(state_a)\n    score_b = difficulty_score(state_b)\n    \n    # Return the id of the robot with the higher difficulty score\n    # (the one having a worse time)\n    if score_a > score_b:\n        return id_a\n    else:\n        return id_b",
+    "fields_referenced": [
+      "alternative_routes_at_conflict",
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384
+  },
+  "X_heavier_load": {
+    "form": "UNGROUNDABLE",
+    "text": "Give way to whichever robot is carrying the heavier load.",
+    "compiled": true,
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    \n    constraints_a = state_a['constraints_on_this_robot']\n    constraints_b = state_b['constraints_on_this_robot']\n    \n    if constraints_a > constraints_b:\n        return id_a\n    elif constraints_b > constraints_a:\n        return id_b\n    \n    current_cost_a = state_a['current_route_cost']\n    current_cost_b = state_b['current_route_cost']\n    \n    if current_cost_a > current_cost_b:\n        return id_a\n    elif current_cost_b > current_cost_a:\n        return id_b\n    \n    return id_a",
+    "fields_referenced": [
+      "constraints_on_this_robot",
+      "current_route_cost",
+      "detour_from_optimal"
+    ],
+    "runtime_errors": 0,
+    "eval_total": 104384
+  }
+}
