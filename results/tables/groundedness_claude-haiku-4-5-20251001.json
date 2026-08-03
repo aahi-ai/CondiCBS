@@ -1,0 +1,230 @@
+[
+  {
+    "id": "G1_detour",
+    "condition": "original",
+    "directive": "Give way to whichever robot has already been pushed furthest off its original route.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    else:\n        if state_a['constraints_on_this_robot'] > state_b['constraints_on_this_robot']:\n            return id_a\n        elif state_b['constraints_on_this_robot'] > state_a['constraints_on_this_robot']:\n            return id_b\n        else:\n            return id_a"
+  },
+  {
+    "id": "G2_longroute",
+    "condition": "original",
+    "directive": "Give way to whichever robot has the longer journey to make in the first place.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['optimal_route_cost'] > state_b['optimal_route_cost']:\n        return id_a\n    elif state_b['optimal_route_cost'] > state_a['optimal_route_cost']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b"
+  },
+  {
+    "id": "G3_threshold",
+    "condition": "original",
+    "directive": "Give way to any robot that has been detoured by more than 2. If both or neither have, give way to the one with the shorter original journey.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    # Check if one robot has been detoured by more than 2\n    a_heavily_detoured = detour_a > 2\n    b_heavily_detoured = detour_b > 2\n    \n    if a_heavily_detoured and not b_heavily_detoured:\n        return id_a\n    elif b_heavily_detoured and not a_heavily_detoured:\n        return id_b\n    else:\n        # Both heavily detoured or neither heavily detoured\n        # Give way to the one with shorter original journey\n        if state_a['optimal_route_cost'] < state_b['optimal_route_cost']:\n            return id_a\n        else:\n            return id_b"
+  },
+  {
+    "id": "G4_constrained",
+    "condition": "original",
+    "directive": "Give way to whichever robot is already operating under more restrictions.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "alternative_routes_at_conflict",
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    constraints_a = state_a['constraints_on_this_robot']\n    constraints_b = state_b['constraints_on_this_robot']\n    \n    if constraints_a > constraints_b:\n        return id_a\n    elif constraints_b > constraints_a:\n        return id_b\n    \n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    \n    alt_a = state_a['alternative_routes_at_conflict']\n    alt_b = state_b['alternative_routes_at_conflict']\n    \n    if alt_a is not None and alt_b is not None:\n        if alt_a < alt_b:\n            return id_a\n        elif alt_b < alt_a:\n            return id_b\n    \n    return id_a"
+  },
+  {
+    "id": "G5_compound",
+    "condition": "original",
+    "directive": "Give way to whichever robot has been detoured more, unless the other robot's original journey was more than twice as long \u2014 in that case it takes priority.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    optimal_a = state_a['optimal_route_cost']\n    optimal_b = state_b['optimal_route_cost']\n    \n    # Check the exception: if one robot's original journey is more than twice as long\n    if optimal_a > 2 * optimal_b:\n        return id_a\n    if optimal_b > 2 * optimal_a:\n        return id_b\n    \n    # Otherwise, give way to whichever robot has been detoured more\n    if detour_a > detour_b:\n        return id_a\n    else:\n        return id_b"
+  },
+  {
+    "id": "X1_load",
+    "condition": "original",
+    "directive": "Give way to whichever robot is carrying the heavier load.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "current_route_cost",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    \n    constraints_a = state_a['constraints_on_this_robot']\n    constraints_b = state_b['constraints_on_this_robot']\n    \n    if constraints_a > constraints_b:\n        return id_a\n    elif constraints_b > constraints_a:\n        return id_b\n    \n    current_a = state_a['current_route_cost']\n    current_b = state_b['current_route_cost']\n    \n    if current_a > current_b:\n        return id_a\n    elif current_b > current_a:\n        return id_b\n    \n    return id_a"
+  },
+  {
+    "id": "X2_battery",
+    "condition": "original",
+    "directive": "Give way to whichever robot has less battery remaining.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    battery_a = state_a.get('battery_remaining')\n    battery_b = state_b.get('battery_remaining')\n    \n    if battery_a is not None and battery_b is not None:\n        if battery_a < battery_b:\n            return id_a\n        elif battery_b < battery_a:\n            return id_b\n    \n    if state_a['detour_from_optimal'] < state_b['detour_from_optimal']:\n        return id_a\n    elif state_b['detour_from_optimal'] < state_a['detour_from_optimal']:\n        return id_b\n    \n    if state_a['constraints_on_this_robot'] > state_b['constraints_on_this_robot']:\n        return id_a\n    elif state_b['constraints_on_this_robot'] > state_a['constraints_on_this_robot']:\n        return id_b\n    \n    return id_a"
+  },
+  {
+    "id": "X3_fragile",
+    "condition": "original",
+    "directive": "Give way to whichever robot is carrying fragile cargo.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    # Extract fragile cargo status from robot IDs or state\n    # Assuming fragile status is encoded in the state or ID\n    # If not available in state, we'd need to check a global registry\n    \n    # For this implementation, we check if either robot ID contains 'fragile'\n    # or if there's a fragile_cargo key in the state\n    a_has_fragile = state_a.get('fragile_cargo', False) or 'fragile' in str(id_a).lower()\n    b_has_fragile = state_b.get('fragile_cargo', False) or 'fragile' in str(id_b).lower()\n    \n    # If only one robot has fragile cargo, give way to it\n    if a_has_fragile and not b_has_fragile:\n        return id_a\n    if b_has_fragile and not a_has_fragile:\n        return id_b\n    \n    # If both or neither have fragile cargo, use cost-based tiebreaker\n    # Prioritize robot with smaller detour (less disruption so far)\n    detour_a = state_a.get('detour_from_optimal', float('inf'))\n    detour_b = state_b.get('detour_from_optimal', float('inf'))\n    \n    if detour_a != detour_b:\n        return id_a if detour_a < detour_b else id_b\n    \n    # If detours are equal, prioritize robot with fewer constraints\n    constraints_a = state_a.get('constraints_on_this_robot', float('inf'))\n    constraints_b = state_b.get('constraints_on_this_robot', float('inf'))\n    \n    return id_a if constraints_a <= constraints_b else id_b"
+  },
+  {
+    "id": "X4_deadline",
+    "condition": "original",
+    "directive": "Give way to whichever robot has the earlier delivery deadline.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    deadline_a = state_a.get('delivery_deadline')\n    deadline_b = state_b.get('delivery_deadline')\n    \n    if deadline_a is not None and deadline_b is not None:\n        if deadline_a < deadline_b:\n            return id_a\n        elif deadline_b < deadline_a:\n            return id_b\n    \n    if deadline_a is not None:\n        return id_a\n    if deadline_b is not None:\n        return id_b\n    \n    if state_a['detour_from_optimal'] < state_b['detour_from_optimal']:\n        return id_a\n    elif state_b['detour_from_optimal'] < state_a['detour_from_optimal']:\n        return id_b\n    \n    if state_a['constraints_on_this_robot'] > state_b['constraints_on_this_robot']:\n        return id_a\n    elif state_b['constraints_on_this_robot'] > state_a['constraints_on_this_robot']:\n        return id_b\n    \n    return id_a"
+  },
+  {
+    "id": "X5_human",
+    "condition": "original",
+    "directive": "Give way to whichever robot is escorting a human.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot",
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    escorting_a = \"escorting_human\" in state_a and state_a[\"escorting_human\"]\n    escorting_b = \"escorting_human\" in state_b and state_b[\"escorting_human\"]\n    \n    if escorting_a and not escorting_b:\n        return id_a\n    elif escorting_b and not escorting_a:\n        return id_b\n    elif escorting_a and escorting_b:\n        if state_a[\"detour_from_optimal\"] < state_b[\"detour_from_optimal\"]:\n            return id_a\n        elif state_b[\"detour_from_optimal\"] < state_a[\"detour_from_optimal\"]:\n            return id_b\n        else:\n            if state_a[\"constraints_on_this_robot\"] < state_b[\"constraints_on_this_robot\"]:\n                return id_a\n            else:\n                return id_b\n    else:\n        if state_a[\"detour_from_optimal\"] < state_b[\"detour_from_optimal\"]:\n            return id_a\n        elif state_b[\"detour_from_optimal\"] < state_a[\"detour_from_optimal\"]:\n            return id_b\n        else:\n            if state_a[\"constraints_on_this_robot\"] < state_b[\"constraints_on_this_robot\"]:\n                return id_a\n            else:\n                return id_b"
+  },
+  {
+    "id": "G1_detour",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot has already been pushed furthest off its original route.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "detour_from_optimal"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > detour_b:\n        return id_a\n    elif detour_b > detour_a:\n        return id_b\n    else:\n        return id_a"
+  },
+  {
+    "id": "G2_longroute",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot has the longer journey to make in the first place.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['optimal_route_cost'] > state_b['optimal_route_cost']:\n        return id_a\n    elif state_b['optimal_route_cost'] > state_a['optimal_route_cost']:\n        return id_b\n    else:\n        return id_a"
+  },
+  {
+    "id": "G3_threshold",
+    "condition": "refusal",
+    "directive": "Give way to any robot that has been detoured by more than 2. If both or neither have, give way to the one with the shorter original journey.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    \n    if detour_a > 2 and detour_b <= 2:\n        return id_a\n    elif detour_b > 2 and detour_a <= 2:\n        return id_b\n    else:\n        if state_a['optimal_route_cost'] < state_b['optimal_route_cost']:\n            return id_a\n        else:\n            return id_b"
+  },
+  {
+    "id": "G4_constrained",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot is already operating under more restrictions.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "constraints_on_this_robot"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    constraints_a = state_a['constraints_on_this_robot']\n    constraints_b = state_b['constraints_on_this_robot']\n    \n    if constraints_a > constraints_b:\n        return id_a\n    elif constraints_b > constraints_a:\n        return id_b\n    else:\n        return id_a"
+  },
+  {
+    "id": "G5_compound",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot has been detoured more, unless the other robot's original journey was more than twice as long \u2014 in that case it takes priority.",
+    "outcome": "compiled",
+    "runs_clean": true,
+    "smoke_errors": 0,
+    "fields": [
+      "detour_from_optimal",
+      "optimal_route_cost"
+    ],
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    optimal_a = state_a['optimal_route_cost']\n    optimal_b = state_b['optimal_route_cost']\n    \n    if optimal_b > 2 * optimal_a:\n        return id_b\n    elif optimal_a > 2 * optimal_b:\n        return id_a\n    else:\n        if detour_a > detour_b:\n            return id_a\n        else:\n            return id_b"
+  },
+  {
+    "id": "X1_load",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot is carrying the heavier load.",
+    "outcome": "refused",
+    "stated_missing": "the load weight carried by each robot"
+  },
+  {
+    "id": "X2_battery",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot has less battery remaining.",
+    "outcome": "refused",
+    "stated_missing": "battery level or remaining battery capacity for each robot"
+  },
+  {
+    "id": "X3_fragile",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot is carrying fragile cargo.",
+    "outcome": "refused",
+    "stated_missing": "cargo type or fragility status of each robot's cargo"
+  },
+  {
+    "id": "X4_deadline",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot has the earlier delivery deadline.",
+    "outcome": "refused",
+    "stated_missing": "delivery deadline for each robot"
+  },
+  {
+    "id": "X5_human",
+    "condition": "refusal",
+    "directive": "Give way to whichever robot is escorting a human.",
+    "outcome": "refused",
+    "stated_missing": "whether each robot is escorting a human"
+  }
+]
