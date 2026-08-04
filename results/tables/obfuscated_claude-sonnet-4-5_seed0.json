@@ -1,0 +1,146 @@
+{
+  "named/D_delay": {
+    "condition": "named",
+    "directive": "D_delay",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['detour_from_optimal'] > state_b['detour_from_optimal']:\n        return id_a\n    elif state_b['detour_from_optimal'] > state_a['detour_from_optimal']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "accuracy": 100.0,
+    "n": 72894,
+    "gap1": {
+      "acc": 100.0,
+      "n": 34551
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 38343
+    },
+    "runtime_errors": 0
+  },
+  "named/D_longroute": {
+    "condition": "named",
+    "directive": "D_longroute",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['optimal_route_cost'] > state_b['optimal_route_cost']:\n        return id_a\n    elif state_b['optimal_route_cost'] > state_a['optimal_route_cost']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "accuracy": 100.0,
+    "n": 102483,
+    "gap1": {
+      "acc": 100.0,
+      "n": 33654
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 68829
+    },
+    "runtime_errors": 0
+  },
+  "named/D_compound": {
+    "condition": "named",
+    "directive": "D_compound",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['detour_from_optimal']\n    detour_b = state_b['detour_from_optimal']\n    optimal_a = state_a['optimal_route_cost']\n    optimal_b = state_b['optimal_route_cost']\n    \n    if optimal_a > 2 * optimal_b:\n        return id_a\n    elif optimal_b > 2 * optimal_a:\n        return id_b\n    else:\n        if detour_a >= detour_b:\n            return id_a\n        else:\n            return id_b",
+    "accuracy": 100.0,
+    "n": 72894,
+    "gap1": {
+      "acc": 100.0,
+      "n": 34551
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 38343
+    },
+    "runtime_errors": 0
+  },
+  "obfuscated/D_delay": {
+    "condition": "obfuscated",
+    "directive": "D_delay",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['m3'] > state_b['m3']:\n        return id_a\n    elif state_b['m3'] > state_a['m3']:\n        return id_b\n    else:\n        return id_a",
+    "accuracy": 100.0,
+    "n": 72894,
+    "gap1": {
+      "acc": 100.0,
+      "n": 34551
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 38343
+    },
+    "runtime_errors": 0
+  },
+  "obfuscated/D_longroute": {
+    "condition": "obfuscated",
+    "directive": "D_longroute",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    if state_a['m1'] > state_b['m1']:\n        return id_a\n    elif state_b['m1'] > state_a['m1']:\n        return id_b\n    else:\n        return id_a if id_a < id_b else id_b",
+    "accuracy": 100.0,
+    "n": 102483,
+    "gap1": {
+      "acc": 100.0,
+      "n": 33654
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 68829
+    },
+    "runtime_errors": 0
+  },
+  "obfuscated/D_compound": {
+    "condition": "obfuscated",
+    "directive": "D_compound",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['m3']\n    detour_b = state_b['m3']\n    original_a = state_a['m1']\n    original_b = state_b['m1']\n    \n    if original_a > 2 * original_b:\n        return id_a\n    elif original_b > 2 * original_a:\n        return id_b\n    else:\n        if detour_a > detour_b:\n            return id_a\n        else:\n            return id_b",
+    "accuracy": 100.0,
+    "n": 72894,
+    "gap1": {
+      "acc": 100.0,
+      "n": 34551
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 38343
+    },
+    "runtime_errors": 0
+  },
+  "blind/D_delay": {
+    "condition": "blind",
+    "directive": "D_delay",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    total_deviation_a = state_a['m1'] + state_a['m2'] + state_a['m3'] + state_a['m4'] + state_a['m5']\n    total_deviation_b = state_b['m1'] + state_b['m2'] + state_b['m3'] + state_b['m4'] + state_b['m5']\n    \n    if total_deviation_a > total_deviation_b:\n        return id_a\n    elif total_deviation_b > total_deviation_a:\n        return id_b\n    else:\n        return id_a",
+    "accuracy": 54.656172328086164,
+    "n": 72420,
+    "gap1": {
+      "acc": 57.834034104181264,
+      "n": 34248
+    },
+    "gap2plus": {
+      "acc": 51.80498794928219,
+      "n": 38172
+    },
+    "runtime_errors": 474
+  },
+  "blind/D_longroute": {
+    "condition": "blind",
+    "directive": "D_longroute",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    total_a = sum(state_a.values())\n    total_b = sum(state_b.values())\n    if total_b > total_a:\n        return id_b\n    elif total_a > total_b:\n        return id_a\n    else:\n        return id_a",
+    "accuracy": 96.170476209194,
+    "n": 101762,
+    "gap1": {
+      "acc": 97.0525621420647,
+      "n": 33351
+    },
+    "gap2plus": {
+      "acc": 95.74045109704579,
+      "n": 68411
+    },
+    "runtime_errors": 721
+  },
+  "blind/D_compound": {
+    "condition": "blind",
+    "directive": "D_compound",
+    "code": "def priority(state_a, state_b, id_a, id_b):\n    detour_a = state_a['m3']\n    detour_b = state_b['m3']\n    original_a = state_a['m1']\n    original_b = state_b['m1']\n    \n    if original_b > 2 * original_a:\n        return id_b\n    elif original_a > 2 * original_b:\n        return id_a\n    else:\n        if detour_a > detour_b:\n            return id_a\n        else:\n            return id_b",
+    "accuracy": 100.0,
+    "n": 72894,
+    "gap1": {
+      "acc": 100.0,
+      "n": 34551
+    },
+    "gap2plus": {
+      "acc": 100.0,
+      "n": 38343
+    },
+    "runtime_errors": 0
+  }
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "instance": "room-32-32-4_12a_r0",
+    "pc=True": {
+      "conflicts_logged": 6,
+      "sampled": 6,
+      "measured": 12,
+      "missing": 0,
+      "width1_pct": 66.66666666666667,
+      "secs": 0.7
+    },
+    "pc=False": {
+      "conflicts_logged": 9,
+      "sampled": 9,
+      "measured": 18,
+      "missing": 0,
+      "width1_pct": 72.22222222222223,
+      "secs": 0.7
+    }
+  },
+  {
+    "instance": "room-32-32-4_12a_r2",
+    "pc=True": {
+      "conflicts_logged": 24,
+      "sampled": 24,
+      "measured": 34,
+      "missing": 0,
+      "width1_pct": 82.3529411764706,
+      "secs": 2.1
+    },
+    "pc=False": {
+      "conflicts_logged": 45,
+      "sampled": 40,
+      "measured": 66,
+      "missing": 0,
+      "width1_pct": 57.57575757575758,
+      "secs": 1.7
+    }
+  },
+  {
+    "instance": "room-32-32-4_12a_r3",
+    "pc=True": {
+      "conflicts_logged": 7,
+      "sampled": 7,
+      "measured": 14,
+      "missing": 0,
+      "width1_pct": 57.142857142857146,
+      "secs": 0.4
+    },
+    "pc=False": {
+      "conflicts_logged": 6,
+      "sampled": 6,
+      "measured": 12,
+      "missing": 0,
+      "width1_pct": 50.0,
+      "secs": 0.1
+    }
+  },
+  {
+    "instance": "room-32-32-4_16a_r1",
+    "pc=True": {
+      "conflicts_logged": 6,
+      "sampled": 6,
+      "measured": 12,
+      "missing": 0,
+      "width1_pct": 83.33333333333333,
+      "secs": 0.1
+    },
+    "pc=False": {
+      "conflicts_logged": 6,
+      "sampled": 6,
+      "measured": 12,
+      "missing": 0,
+      "width1_pct": 83.33333333333333,
+      "secs": 0.1
+    }
+  },
+  {
+    "instance": "room-32-32-4_16a_r2",
+    "pc=True": {
+      "conflicts_logged": 810,
+      "sampled": 40,
+      "measured": 80,
+      "missing": 0,
+      "width1_pct": 100.0,
+      "secs": 22.0
+    },
+    "pc=False": {
+      "conflicts_logged": 2003,
+      "sampled": 40,
+      "measured": 78,
+      "missing": 0,
+      "width1_pct": 93.58974358974359,
+      "secs": 25.8
+    }
+  },
+  {
+    "instance": "empty-32-32_12a_r0",
+    "pc=True": {
+      "conflicts_logged": 2,
+      "sampled": 2,
+      "measured": 4,
+      "missing": 0,
+      "width1_pct": 0.0,
+      "secs": 0.1
+    },
+    "pc=False": {
+      "conflicts_logged": 2,
+      "sampled": 2,
+      "measured": 4,
+      "missing": 0,
+      "width1_pct": 0.0,
+      "secs": 0.1
+    }
+  },
+  {
+    "instance": "empty-32-32_16a_r3",
+    "pc=True": {
+      "conflicts_logged": 4,
+      "sampled": 4,
+      "measured": 8,
+      "missing": 0,
+      "width1_pct": 12.5,
+      "secs": 0.4
+    },
+    "pc=False": {
+      "conflicts_logged": 4,
+      "sampled": 4,
+      "measured": 8,
+      "missing": 0,
+      "width1_pct": 12.5,
+      "secs": 0.1
+    }
+  },
+  {
+    "instance": "empty-32-32_20a_r5",
+    "pc=True": {
+      "conflicts_logged": 14,
+      "sampled": 14,
+      "measured": 28,
+      "missing": 0,
+      "width1_pct": 0.0,
+      "secs": 0.2
+    },
+    "pc=False": {
+      "conflicts_logged": 20,
+      "sampled": 20,
+      "measured": 40,
+      "missing": 0,
+      "width1_pct": 0.0,
+      "secs": 0.1
+    }
+  }
+]
