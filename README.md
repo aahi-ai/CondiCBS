@@ -1,4 +1,4 @@
-# CondiCBS
+# CondiCBS - MAPF
 
 Which properties of a search node can natural-language directives be grounded
 against — and does that grounding have to happen during search?
